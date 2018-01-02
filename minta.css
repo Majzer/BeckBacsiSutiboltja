@@ -1,10 +1,17 @@
 #parent {
   display: flex;
+  background-color: #E89B3A;
+  border-radius: 0px 0px 10px 10px;
+}
+#foresz {
+    display: flex;
 }
 div.logo {
     width: 100px;
+    margin-right: 30px;
 }
 div.logoSzoveg{
+    margin-top: 15px;
     flex: 1;
 }
 div.logo img {
@@ -12,4 +19,37 @@ div.logo img {
 }
 h1.logoSzoveg {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+aside header{
+     background-color: #FFA12A;
+     border-radius: 10px 10px 0px 0px;
+}
+aside header h3{
+    text-align: center;
+}
+aside header article{
+    background-color: #E89B3A;
+    border-radius: 10px 10px 0px 0px;
+}
+article{
+    display: flex;
+    height: 120%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+aside.komment{
+    
+}
+
+header.sarga{
+   
+}
+
+div.suti{
+    background-color: green;
+    height: 30%;
+    width: 30%;
+    margin: 16px 30px;
 }
