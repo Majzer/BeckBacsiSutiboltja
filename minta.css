@@ -1,3 +1,15 @@
-   body{
-   background-color: rgb(170, 132, 57);
-   }
+#parent {
+  display: flex;
+}
+div.logo {
+    width: 100px;
+}
+div.logoSzoveg{
+    flex: 1;
+}
+div.logo img {
+    border-radius: 50%;
+}
+h1.logoSzoveg {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
