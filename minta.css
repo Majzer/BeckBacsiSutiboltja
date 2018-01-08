@@ -3,6 +3,11 @@
   background-color: #E89B3A;
   border-radius: 0px 0px 10px 10px;
 }
+
+body{
+   background-color: #AA7839;
+}
+
 #foresz {
     display: flex;
 }
