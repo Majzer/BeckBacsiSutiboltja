@@ -1,3 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+} 
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
 #parent {
   display: flex;
   background-color: #E89B3A;
@@ -35,13 +64,17 @@ h1.logoSzoveg {
     list-style-type: none;
 }
 
+ul li{
+    list-style-image: url("media/list.png");
+}
+
 aside header{
      background-color: #FFA12A;
      border-radius: 10px 10px 0px 0px;
      padding-bottom: 10px;
 }
 article header{
-     display: flex;
+     
      background-color: #E89B3A;
      border-radius: 10px 10px 0px 0px;
      margin: 20px;
@@ -56,7 +89,6 @@ aside header article{
 }
 article{
     display: flex;
-    height: 120%;
     background-color: #FFA12A;
     margin-right: 10px;
     border-radius: 10px 10px 0px 0px;
@@ -79,9 +111,6 @@ a{
 
 div.suti{
     background-color: green;
-    height: 100%;
-    width: 90%;
-    margin: 16px 30px;
 }
 
 div.suti img{
