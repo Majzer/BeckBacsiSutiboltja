@@ -77,15 +77,6 @@ h1.logoSzoveg {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.kommentek {
-    padding-left: 2px;
-}
-
-.kommentek li{
-    padding-bottom: 5px;
-    list-style-type: none;
-}
-
 ul li{
     list-style-image: url("media/list.png");
 }
