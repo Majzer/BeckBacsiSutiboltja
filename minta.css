@@ -14,12 +14,34 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;} 
+.col-12Oldalt {width: 100%;}
 
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
-} 
+    
+}
+
+@media screen and (max-width: 1200px){
+    .col-4{
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .col-4{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .col-12Oldalt{
+       display: none;
+    }
+    .col-11{
+        width:100%;
+    }
+}
 
 .row::after {
     content: "";
