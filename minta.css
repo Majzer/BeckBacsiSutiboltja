@@ -17,11 +17,16 @@
 .col-12 {width: 100%;} 
 .col-12Oldalt {width: 100%;}
 .col-4-suti {width: 50%;}
+.col-11x {width: 91.66%;}
 
 [class*="col-"] {
     float: left;
     padding: 15px;
     border: 1px solid red;
+}
+
+ul li{
+    margin: 5px 0;
 }
 
 .col-4{
@@ -40,6 +45,9 @@
     .col-11 .sutioldal .col-2{
         width:50%;
     }
+    .col-11x .sutioldal .col-2{
+        width:50%;
+    }
     .col-4{
         width:50%;
     }
@@ -47,6 +55,9 @@
         width: 100%;
     }
     .col-11 article{
+        height: 1000px;
+    }
+    .col-11x article{
         height: 1000px;
     }
 }
@@ -73,6 +84,9 @@
     .col-11 article{
         height: 1700px;
     }
+    .col-11x article{
+        height: 2200px;
+    }
 }
 
 @media screen and (max-width: 1500px){
@@ -92,6 +106,9 @@
     .col-11{
         width:100%;
     }
+    .col-11x{
+        width:100%;
+    }
     .sutioldal img{
         width: 100%;
     }
@@ -100,6 +117,9 @@
     }
     .col-11 article{
         height: 1700px;
+    }
+    .col-11x article{
+        height: 2400px;
     }
 }
 
