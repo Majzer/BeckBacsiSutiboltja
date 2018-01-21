@@ -15,25 +15,62 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;} 
 .col-12Oldalt {width: 100%;}
+.col-4-suti {width: 50%;}
 
 [class*="col-"] {
     float: left;
     padding: 15px;
+    border: 1px solid red;
 }
 
 .col-4{
     height: 300px;
 }
 
+.col-6 ol li{
+    margin: 10px 0;
+}
+
+.col-4-suti{
+    height: 300px;
+}
+
 @media screen and (max-width: 1300px){
+    .col-11 .sutioldal .col-2{
+        width:50%;
+    }
     .col-4{
         width:50%;
+    }
+    .col-4-suti img{
+        width: 100%;
+    }
+    .col-11 article{
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1200px){  
+    .col-4-suti{
+        width:100%;
+    }   
+    .col-4-suti img{
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 1000px){
     .col-4{
         width:100%;
+    }   
+    .sutioldal img{
+        width: 100%;
+    }
+    .sutioldal .col-4{
+        padding-top: 150px;
+    }
+    .col-11 article{
+        height: 1700px;
     }
 }
 
@@ -41,6 +78,10 @@
     .col-4{
         height: 310px;
     }
+    .col-4-suti img{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 800px){
@@ -50,7 +91,20 @@
     .col-11{
         width:100%;
     }
+    .sutioldal img{
+        width: 100%;
+    }
+        .sutioldal .col-4{
+        padding-top: 150px;
+    }
+    .col-11 article{
+        height: 1700px;
+    }
 }
+
+.sutioldal img{
+        width: 100%;
+    }
 
 .row::after {
     content: "";
@@ -96,7 +150,6 @@ aside header{
      padding-bottom: 10px;
 }
 article header{
-     
      background-color: #E89B3A;
      border-radius: 10px 10px 0px 0px;
      margin: 20px;
@@ -129,6 +182,10 @@ a{
     height: 30%;
     color: black;
     text-decoration: none;
+}
+
+.sutioldal{
+    
 }
 
 div.suti{
