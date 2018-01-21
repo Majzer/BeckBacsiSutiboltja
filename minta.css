@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .col-1 {width: 8.33%;}
@@ -27,7 +28,7 @@
     height: 300px;
 }
 
-.col-6 ol li{
+.col-4 ol li{
     margin: 10px 0;
 }
 
